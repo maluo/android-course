@@ -1,0 +1,2 @@
+rootProject.name = "LUOX1180_ASSIGNMENT1"
+include ':app'
