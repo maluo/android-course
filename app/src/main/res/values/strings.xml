@@ -2,4 +2,11 @@
     <string name="app_name">LUOX1180_ASSIGNMENT1</string>
     <string name="hello_message">Hello World !</string>
     <string name="click_me">I\' am a button</string>
+    <string name="login">login</string>
+    <string name="login_name">Login Name</string>
+    <string name="email">email</string>
+    <string name="enter_email">Please enter your email</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="check_box">Check Box</string>
+    <string name="swtich_box">What does this do?</string>
 </resources>

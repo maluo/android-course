@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LUOX1180_ASSIGNMENT1</string>
+    <string name="hello_message">你好 !</string>
+    <string name="click_me">我是按钮</string>
+    <string name="login">登录</string>
+    <string name="login_name">登录名</string>
+    <string name="email">电子邮箱</string>
+    <string name="enter_email">请输入您的电子邮箱</string>
+    <string name="radio_button">选择按钮</string>
+    <string name="check_box">打钩按钮</string>
+    <string name="swtich_box">开关按钮</string>
+</resources>
