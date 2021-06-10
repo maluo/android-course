@@ -10,4 +10,5 @@
     <string name="radio_button">选择按钮</string>
     <string name="check_box">打钩按钮</string>
     <string name="swtich_box">开关按钮</string>
+    <string name="password">密码</string>
 </resources>

@@ -5,6 +5,7 @@
     <string name="login">login</string>
     <string name="login_name">Login Name</string>
     <string name="email">email</string>
+    <string name="password">password</string>
     <string name="enter_email">Please enter your email</string>
     <string name="radio_button">Radio Button</string>
     <string name="check_box">Check Box</string>
