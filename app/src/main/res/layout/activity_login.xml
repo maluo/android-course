@@ -2,7 +2,8 @@
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_gravity="top">
 
         <TextView
             android:id="@+id/textView2"
@@ -49,5 +50,12 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="@string/enter_email" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            />
 
 </LinearLayout>

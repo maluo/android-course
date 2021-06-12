@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LUOX1180_ASSIGNMENT1</string>
+    <string name="app_name">LUOX1180_ASSIGNMENT2</string>
     <string name="hello_message">Hello World !</string>
     <string name="click_me">I\' am a button</string>
     <string name="login">login</string>
@@ -10,4 +10,12 @@
     <string name="radio_button">Radio Button</string>
     <string name="check_box">Check Box</string>
     <string name="swtich_box">What does this do?</string>
+    <string name="dialog_message">Do you want to jump back to the main activity?</string>
+    <string name="dialog_title">Information</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="list_response">Here is my response!</string>
+    <string name="swtich_on">Switch On!</string>
+    <string name="switch_off">Switch Off!</string>
+
 </resources>

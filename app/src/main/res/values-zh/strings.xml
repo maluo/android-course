@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LUOX1180_ASSIGNMENT1</string>
+    <string name="app_name">LUOX1180 - 作业2</string>
     <string name="hello_message">你好 !</string>
     <string name="click_me">我是按钮</string>
     <string name="login">登录</string>
@@ -9,6 +9,13 @@
     <string name="enter_email">请输入您的电子邮箱</string>
     <string name="radio_button">选择按钮</string>
     <string name="check_box">打钩按钮</string>
-    <string name="swtich_box">开关按钮</string>
+    <string name="swtich_box">这个按钮做什么？</string>
     <string name="password">密码</string>
+    <string name="dialog_message">您是否想要退回主页面?</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="list_response">这个是我的回应!</string>
+    <string name="swtich_on">开关打开!</string>
+    <string name="switch_off">开关关闭!</string>
 </resources>
