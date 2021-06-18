@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LUOX1180 - 作业2</string>
+    <string name="app_name">LUOX1180 - 作业2-3</string>
     <string name="hello_message">你好 !</string>
     <string name="click_me">我是按钮</string>
     <string name="login">登录</string>
@@ -23,4 +23,5 @@
     <string name="enter_to_chat">请输入开始聊天...</string>
     <string name="btn_send">发送</string>
     <string name="user_send_chat">用户发送了一条信息</string>
+    <string name="caller">联系人</string>
 </resources>

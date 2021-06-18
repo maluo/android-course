@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
   }
 
   public void onStartChat(View v) {
+    Intent i = new Intent(MainActivity.this, ChatWindow.class);
+    startActivity(i);
     Log.i(ACTIVITY_NAME, getString(R.string.user_start_chat));
   }
 

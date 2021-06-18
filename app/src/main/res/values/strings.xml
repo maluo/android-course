@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LUOX1180_ASSIGNMENT2</string>
+    <string name="app_name">LUOX1180_ASSIGNMENT2-3</string>
     <string name="hello_message">Hello World !</string>
     <string name="click_me">I\' am a button</string>
     <string name="login">login</string>
@@ -22,4 +22,5 @@
     <string name="enter_to_chat">Please Enter to Chat...</string>
     <string name="btn_send">Send</string>
     <string name="user_send_chat">User Sent a Message</string>
+    <string name="caller">Caller</string>
 </resources>
