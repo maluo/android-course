@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
     );
   }
 
+  public void onStartChat(View v) {
+    Log.i(ACTIVITY_NAME, getString(R.string.user_start_chat));
+  }
+
   @Override
   protected void onActivityResult(
     int requestCode,

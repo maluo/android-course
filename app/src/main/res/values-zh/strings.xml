@@ -18,4 +18,9 @@
     <string name="list_response">这个是我的回应!</string>
     <string name="swtich_on">开关打开!</string>
     <string name="switch_off">开关关闭!</string>
+    <string name="btn_start">开始聊天</string>
+    <string name="user_start_chat">用户点击开始聊天</string>
+    <string name="enter_to_chat">请输入开始聊天...</string>
+    <string name="btn_send">发送</string>
+    <string name="user_send_chat">用户发送了一条信息</string>
 </resources>

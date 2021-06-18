@@ -17,5 +17,9 @@
     <string name="list_response">Here is my response!</string>
     <string name="swtich_on">Switch On!</string>
     <string name="switch_off">Switch Off!</string>
-
+    <string name="btn_start">Start Chart</string>
+    <string name="user_start_chat">User clicked Start Chat</string>
+    <string name="enter_to_chat">Please Enter to Chat...</string>
+    <string name="btn_send">Send</string>
+    <string name="user_send_chat">User Sent a Message</string>
 </resources>
