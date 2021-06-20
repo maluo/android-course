@@ -105,8 +105,8 @@ public class ChatWindow extends AppCompatActivity {
 
       View result = null;
       if (position % 2 == 0) result =
-        inflater.inflate(R.layout.chat_row_incoming, null); else result =
-        inflater.inflate(R.layout.chat_row_outgoing, null);
+        inflater.inflate(R.layout.chat_row_outgoing, null); else result =
+        inflater.inflate(R.layout.chat_row_incoming, null);
 
       TextView message = (TextView) result.findViewById(R.id.message_text);
       message.setText(getItem(position)); // get the string at position

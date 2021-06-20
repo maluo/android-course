@@ -12,6 +12,8 @@
 
 ### Typing in various messages populates the chat window, like the picture above. - Done
 
+![List Acivity]("/assignment2-3/listactivity.png")
+
 ### Typing in various messages clears the EditText control. - Done
 
 ### Clicking the Android Back button goes back to MainActivity. - Done
