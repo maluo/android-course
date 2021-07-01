@@ -23,4 +23,10 @@
     <string name="btn_send">Send</string>
     <string name="user_send_chat">User Sent a Message</string>
     <string name="caller">Caller</string>
+    <string name="btnStartToolBar">Test ToolBar</string>
+    <string name="title_activity_test_toolbar">Test ToolBar</string>
+    <string name="testtoolbar_myname">Ma Luo</string>
+    <string name="testtoolbar_lbutton">Send email</string>
+
 </resources>
+

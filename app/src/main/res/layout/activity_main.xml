@@ -26,4 +26,12 @@
         android:onClick="onStartChat"
         />
 
+    <Button
+        android:id="@+id/btnStartToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnStartToolBar"
+        android:onClick="onStartTestToolBar"
+        />
+
 </android.widget.LinearLayout>

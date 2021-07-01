@@ -24,4 +24,8 @@
     <string name="btn_send">发送</string>
     <string name="user_send_chat">用户发送了一条信息</string>
     <string name="caller">联系人</string>
+    <string name="btnStartToolBar">测试置顶菜单</string>
+    <string name="title_activity_test_toolbar">测试置顶菜单</string>
+    <string name="testtoolbar_myname">罗马</string>
+    <string name="testtoolbar_lbutton">发送邮件</string>
 </resources>

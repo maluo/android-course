@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.luox1180_assignment2.TestToolbar;
+
 public class MainActivity extends AppCompatActivity {
 
   protected static final String ACTIVITY_NAME = "MainActivity";
@@ -39,6 +41,13 @@ public class MainActivity extends AppCompatActivity {
     startActivity(i);
     Log.i(ACTIVITY_NAME, getString(R.string.user_start_chat));
   }
+
+  public void onStartTestToolBar(View v) {
+    Intent i = new Intent(MainActivity.this, TestToolbar.class);
+    startActivity(i);
+    Log.i(ACTIVITY_NAME, getString(R.string.user_start_chat));
+  }
+
 
   @Override
   protected void onActivityResult(

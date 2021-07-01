@@ -16,9 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LUOX1180_ASSIGNMENT1">
-        <activity android:name=".ChatWindow">
-        </activity>
-        <activity android:name=".ListItemsActivity"></activity>
+        <activity
+            android:name="com.example.luox1180_assignment2.TestToolbar"
+            android:label="@string/title_activity_test_toolbar"
+            android:theme="@style/Theme.LUOX1180_ASSIGNMENT1.NoActionBar"></activity>
+        <activity android:name=".ChatWindow"></activity>
+        <activity android:name=".ListItemsActivity" />
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,8 +29,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
