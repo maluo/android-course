@@ -1,6 +1,6 @@
 # android-course
 
-## Ma First Android Assignment, Date: May 23, 2021
+## Ma First Android Assignment, Date: July 1st, 2021
 
 ## Ma Commited Assignment 2-1 with 3 new activities and proper locale for second language
 
@@ -8,16 +8,16 @@
 
 ## Ma Commited first batch for Assignment 2-3.  Date: June 18, 2021
 
-### Clicking login starts the MainActivity. Clicking on “Start chat” launches the ChatWindow activity. - Done
+## Ma Commited Assignment 2-4.  Date: July 1st, 2021
 
-### Typing in various messages populates the chat window, like the picture above. - Done
+### Launch the application and navigate to the TestToolbar. Show that your Toolbar appears with 3 icons, and a fourth About item in the settings menu.
 
-![List Acivity]("/assignment2-3/listactivity.png")
+### Select Item 1 in the toolbar, and show that it makes a Snackbar notification appear at the bottom of the screen.
 
-### Typing in various messages clears the EditText control. - Done
+### Select Item 2 in the toolbar, and select the negative button “No”, or “cancel”. This should not end the current activity and navigate back to the StartActivity.
 
-### Clicking the Android Back button goes back to MainActivity. - Done
+### Select Item 3 in the toolbar, and set a new message for the Snackbar notification.
 
-### Everything from part 3 still works (listItems, replacing the imageButton background). - Done
+### Select Item 1 in the toolbar and show the Snackbar has a new notification message.
 
-### Update your strings.xml file to include translated messages for the Send, and Start Chat. Show that changing Android’s language to your second language displays the translated messages. - Done  Please see attached screenshot
+### Select Item 2 in the toolbar, but now select the positive button so that it ends the current activity.

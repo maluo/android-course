@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LUOX1180_ASSIGNMENT2-3</string>
+    <string name="app_name">LUOX1180_ASSIGNMENT2-4</string>
     <string name="hello_message">Hello World !</string>
     <string name="click_me">I\' am a button</string>
     <string name="login">login</string>
@@ -27,6 +27,12 @@
     <string name="title_activity_test_toolbar">Test ToolBar</string>
     <string name="testtoolbar_myname">Ma Luo</string>
     <string name="testtoolbar_lbutton">Send email</string>
+    <string name="testtoolbar_back_title">Do you want to go back?</string>
+    <string name="testtoolbar_action_one">Action One Selected</string>
+    <string name="testtoolbar_action_two">Action Two Selected</string>
+    <string name="testtoolbar_action_three">Action Three Selected</string>
+    <string name="testtoolbar_action_about">Send email</string>
+    <string name="testtoolbar_select_action_one">You selected item 1!</string>
 
 </resources>
 
