@@ -21,3 +21,7 @@
 ### Select Item 1 in the toolbar and show the Snackbar has a new notification message.
 
 ### Select Item 2 in the toolbar, but now select the positive button so that it ends the current activity.
+
+## Ma Commited Assignment 3-1.  Date: July 13th, 2021
+
+### Tested all the functions with database readable and writable
