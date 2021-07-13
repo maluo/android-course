@@ -1,6 +1,8 @@
 package com.example.luox1180_assignment1;
 
 import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -25,19 +27,51 @@ public class ChatWindow extends AppCompatActivity {
   protected static final String ACTIVITY_NAME = "ChatWindowActivity";
   ChatAdapter messageAdapter;
 
+  SQLiteDatabase readable;
+  ChatDatabaseHelper dbHelper;
+  SQLiteDatabase writable;
+
+  public static final String TABLE_ITEMS = "items";
+  public static final String COLUMN_ID = "KEY_ID";
+  public static final String COLUMN_ITEM = "KEY_MESSAGE";
+
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_chat_window);
     findComponents();
+
+    dbHelper = new ChatDatabaseHelper(this);
+    readable = dbHelper.getReadableDatabase();
+    dbHelper.onOpen(readable);
+    writable = dbHelper.getWritableDatabase();
+    ReadDB();
     messageAdapter = new ChatAdapter( this);
     chatView.setAdapter (messageAdapter);
+  }
 
+  private void ReadDB(){
+    Cursor c = readable.rawQuery("select * from items",new String[]{});
+    /*int colIndex = c.getColumnIndex(COLUMN_ITEM);
+    for(int i = 0; i < c.getCount(); i++){
+      String message = c.getString(colIndex);
+      chatHistory.add(message);
+      c.moveToNext();
+    }*/
+    Log.i(ACTIVITY_NAME, "Cursor’s  column count = " + c.getColumnCount() );
+    c.moveToFirst();
+    while(!c.isAfterLast() ) {
+      String message = c.getString(c.getColumnIndex(ChatDatabaseHelper.COLUMN_ITEM));
+      Log.i(ACTIVITY_NAME, "SQL MESSAGE: " + message);
+      chatHistory.add(message);
+      c.moveToNext();
+    }
   }
 
   public void onTextSend(View v) {
     if (toSend.getText().length() > 0) {
       chatHistory.add(toSend.getText().toString());
+      dbHelper.insertMsg(toSend.getText().toString(),writable);
       messageAdapter.notifyDataSetChanged();
     }
     toSend.setText(""); //Clear the content
@@ -74,6 +108,7 @@ public class ChatWindow extends AppCompatActivity {
   protected void onDestroy() {
     Log.i(ACTIVITY_NAME, "In onDestroy()");
     super.onDestroy();
+    dbHelper.close();
   }
 
   @Override
