@@ -25,3 +25,7 @@
 ## Ma Commited Assignment 3-1.  Date: July 13th, 2021
 
 ### Tested all the functions with database readable and writable
+
+## Ma Commited Assignment 3-2.  Date: July 24th, 2021
+
+### Tested all the functions with a dropdown list on 3 of the major cities
