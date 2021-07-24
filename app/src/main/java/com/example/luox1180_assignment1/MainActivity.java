@@ -5,7 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
   int LAUNCH_SECOND_ACTIVITY = 10; // This is just a sample request code would have something meaningful if possible
   int duration = Toast.LENGTH_SHORT; //= Toast.LENGTH_LONG if Off
   int duration_long = Toast.LENGTH_LONG;
+  Spinner dropdown;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     button = findViewById(R.id.btnClick);
+    dropdown = findViewById(R.id.cities);
+    String[] items = new String[]{"toronto", "ottawa", "vancouver"};
+    ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, items);
+    dropdown.setAdapter(adapter);
+
     button.setOnClickListener(
       new View.OnClickListener() {
         @Override
@@ -46,6 +54,14 @@ public class MainActivity extends AppCompatActivity {
     Intent i = new Intent(MainActivity.this, TestToolbar.class);
     startActivity(i);
     Log.i(ACTIVITY_NAME, getString(R.string.user_start_chat));
+  }
+
+  public void onStartWeatherForecast(View v) {
+    Intent i = new Intent(MainActivity.this, WeatherForecast.class);
+    i.putExtra("city",dropdown.getSelectedItem().toString());
+    Log.i(ACTIVITY_NAME, dropdown.getSelectedItem().toString());
+    startActivity(i);
+    Log.i(ACTIVITY_NAME, getString(R.string.main_activity_weather_text));
   }
 
 

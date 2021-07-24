@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LUOX1180_ASSIGNMENT2-4</string>
+    <string name="app_name">LUOX1180_ASSIGNMENT3-2</string>
     <string name="hello_message">Hello World !</string>
     <string name="click_me">I\' am a button</string>
     <string name="login">login</string>
@@ -33,6 +33,16 @@
     <string name="testtoolbar_action_three">Action Three Selected</string>
     <string name="testtoolbar_action_about">Send email</string>
     <string name="testtoolbar_select_action_one">You selected item 1!</string>
-
+    <string name="main_activity_weather">Weather Forecast</string>
+    <string name="main_activity_weather_text">Weather Forecast</string>
+    <string name="_weather_activity_default_degree">0 \u00B0C</string>
+    <string name="weather_degree">\u00B0C</string>
+    <string name="xml_error">XML Parsing Error</string>
+    <string name="connection_error">Network Connection Error</string>
+    <string name="select_city">Please select a city:</string>
+    <string name="weather_postfix">Weather</string>
+    <string name="current_temp">Current Temperature:</string>
+    <string name="min_temp">Min Temperature:</string>
+    <string name="max_temp">Max Temperature:</string>
 </resources>
 

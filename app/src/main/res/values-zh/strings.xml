@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LUOX1180 - 作业2-4</string>
+    <string name="app_name">LUOX1180 - 作业3-2</string>
     <string name="hello_message">你好 !</string>
     <string name="click_me">我是按钮</string>
     <string name="login">登录</string>
@@ -34,4 +34,15 @@
     <string name="testtoolbar_action_three">选择第三选项</string>
     <string name="testtoolbar_action_about">关于应用</string>
     <string name="testtoolbar_select_action_one">您选择了第一个选项按钮!</string>
+    <string name="main_activity_weather">天气预报</string>
+    <string name="main_activity_weather_text">天气预报</string>
+    <string name="_weather_activity_default_degree">0 度</string>
+    <string name="xml_error">解析xml错误</string>
+    <string name="connection_error">网络连接错误</string>
+    <string name="select_city">请选择一个城市:</string>
+    <string name="weather_postfix">天气</string>
+    <string name="current_temp">当前温度:</string>
+    <string name="min_temp">最低温度:</string>
+    <string name="max_temp">最高温度:</string>
+    <string name="weather_degree">度</string>
 </resources>
