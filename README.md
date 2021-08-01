@@ -29,3 +29,7 @@
 ## Ma Commited Assignment 3-2.  Date: July 24th, 2021
 
 ### Tested all the functions with a dropdown list on 3 of the major cities
+
+## Ma Commited Assignment 3-3.  Date: August 1st, 2021
+
+### Tested both phone and tablets.
