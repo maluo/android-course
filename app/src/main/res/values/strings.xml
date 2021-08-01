@@ -44,5 +44,9 @@
     <string name="current_temp">Current Temperature:</string>
     <string name="min_temp">Min Temperature:</string>
     <string name="max_temp">Max Temperature:</string>
+    <string name="chat_fragment">Fragmented Window</string>
+    <string name="chat_message">MessageHere</string>
+    <string name="chat_id">ID=</string>
+    <string name="chat_del">DELETE THIS MESSAGE</string>
 </resources>
 

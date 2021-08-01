@@ -22,7 +22,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:hint="@string/enter_to_chat"
-        android:layout_toLeftOf="@+id/btnSend"></EditText>
+        android:layout_toLeftOf="@+id/btnSend" />
 
     <Button
         android:id="@+id/btnSend"
@@ -32,6 +32,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:onClick="onTextSend"
-        ></Button>
+        />
 
 </RelativeLayout>

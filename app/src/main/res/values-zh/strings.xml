@@ -45,4 +45,8 @@
     <string name="min_temp">最低温度:</string>
     <string name="max_temp">最高温度:</string>
     <string name="weather_degree">度</string>
+    <string name="chat_fragment">宽屏模式</string>
+    <string name="chat_message">请输入信息</string>
+    <string name="chat_id">ID为: </string>
+    <string name="chat_del">删除此条信息</string>
 </resources>

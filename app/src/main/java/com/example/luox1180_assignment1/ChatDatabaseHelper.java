@@ -41,6 +41,11 @@ public class ChatDatabaseHelper extends SQLiteOpenHelper {
         return  insertId;
     }
 
+    public long deleteMsg(Long id,SQLiteDatabase db){
+        long deleteId = db.delete(TABLE_ITEMS, COLUMN_ID+"="+id,null);
+        return  deleteId;
+    }
+
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         Log.w(ChatDatabaseHelper.class.getName(),

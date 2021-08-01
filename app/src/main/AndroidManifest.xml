@@ -16,9 +16,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.LUOX1180_ASSIGNMENT1">
-        <activity android:name=".WeatherForecast"></activity>
+        android:theme="@style/Theme.LUOX1180_ASSIGNMENT1"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".MessageDetails"></activity>
+        <activity android:name=".WeatherForecast" />
         <activity
             android:name="com.example.luox1180_assignment2.TestToolbar"
             android:label="@string/title_activity_test_toolbar"
