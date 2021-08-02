@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top">
+
+
+    <ListView
+        android:id="@+id/chatView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnSend"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/sidebar"
+        >
+    </ListView>
+
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/sidebar"
+        android:layout_alignParentRight="true"
+        android:layout_width="200dp"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/txtToSend"
+        android:layout_width="792dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnSend"
+        android:hint="@string/enter_to_chat" />
+
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_toLeftOf="@+id/sidebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="onTextSend"
+        android:layout_marginEnd="200dp"
+        android:text="@string/btn_send" />
+
+
+
+</RelativeLayout>
+
